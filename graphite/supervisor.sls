@@ -45,5 +45,5 @@ supervisor-service:
     - reload: True
     - enable: True
     - watch:
-      - pip: supervisor
+#      - pip: supervisor
       - file: {{ graphite.supervisor_conf }}
