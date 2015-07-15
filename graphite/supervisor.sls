@@ -10,8 +10,8 @@ config-dir:
     - mode: 755
     - makedirs: True
 
-supervisor:
-  pip.installed
+#supervisor:
+#  pip.installed
 
 {{ graphite.supervisor_conf }}:
   file.managed:
